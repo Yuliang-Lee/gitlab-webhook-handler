@@ -1,0 +1,7 @@
+{
+    "*": "*",
+    "Push Hook": "Push Hook",
+    "Tag Push Hook": "Tag Push Hook",
+    "Merge Request Hook": "Merge Request Hook",
+    "Issue Hook": "Issue Hook"
+}

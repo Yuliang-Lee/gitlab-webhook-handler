@@ -1,6 +1,7 @@
 # gitlab-webhook-handler
 
 Node.js >= 4
+
 gitlab <= 7.11.4
 
 从[gitlab-webhook-handler](https://github.com/rvagg/github-webhook-handler)修改而来，用来处理 gitlab 的 webhook 的一个中间件，目前支持 push、tag、issue 和 merge 事件。

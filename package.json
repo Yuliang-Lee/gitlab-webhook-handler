@@ -1,6 +1,6 @@
 {
-  "name": "gitlab-webhook-handler",
-  "version": "0.1.0",
+  "name": "gitlab-webhook-handler2",
+  "version": "0.1.2",
   "description": "Web handler / middleware for processing GitLab Webhooks",
   "main": "gitlab-webhook-handler.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "xlaoyu <xlaoyu> (http://xlaoyu.info)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yuliang-Lee/github-webhook-handler.git"
+    "url": "https://github.com/Yuliang-Lee/gitlab-webhook-handler.git"
   },
   "license": "MIT",
   "dependencies": {

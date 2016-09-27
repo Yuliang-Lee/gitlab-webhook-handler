@@ -1,9 +1,10 @@
 # gitlab-webhook-handler
 
-Node.js >= 4
+Node.js >= 0.12
+
 gitlab <= 7.11.4
 
-从[gitlab-webhook-handler](https://github.com/rvagg/github-webhook-handler)修改而来，用来处理 gitlab 的 webhook 的一个中间件，目前支持 push、tag、issue 和 merge 事件。
+从[gitlab-webhook-handler](https://github.com/rvagg/github-webhook-handler)修改而来，用来处理 gitlab 的 webhook 的一个中间件。由于我使用的gitlab是v7.11.4版本，目前默认仅支持 push、tag、issue 和 merge 事件，并且不支持SSL。
 
 GitLab allows you to register **[Webhooks](https://gitlab.com/gitlab-org/gitlab-ee/blob/v7.11.4/doc/web_hooks/web_hooks.md)** for your repositories. Each time an event occurs on your repository, whether it be pushing code, filling issues or creating pull requests, the webhook address you register can be configured to be pinged with details.
 

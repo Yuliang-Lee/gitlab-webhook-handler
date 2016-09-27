@@ -1,6 +1,6 @@
 'use strict'
 
-const EventEmitter = require('events').EventEmitter,
+var EventEmitter = require('events').EventEmitter,
     inherits = require('util').inherits,
     crypto = require('crypto'),
     allEvents = require('./events.json'),
@@ -65,7 +65,6 @@ function create(options) {
         
         req.pipe(bl(function (err, data) {
             if (err) {
-                console.log(3)
                 return hasError(err.message)
             }
             
@@ -74,7 +73,6 @@ function create(options) {
             try {
                 obj = JSON.parse(data.toString())
             } catch (e) {
-                console.log(4)
                 return hasError(e)
             }
 
